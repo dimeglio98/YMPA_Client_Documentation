@@ -4,7 +4,6 @@ import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
-import HomepageFeatures from '../components/HomepageFeatures';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -30,11 +29,11 @@ export default function Home() {
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      description="YMPA Client Documentation">
       <HomepageHeader />
-      <main>
-        <HomepageFeatures />
-      </main>
+      <div className = {styles.home}>
+      Clicca il pulsante Descrizione API nel menu per continuare
+    </div>
     </Layout>
   );
 }

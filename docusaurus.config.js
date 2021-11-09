@@ -6,8 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'YMPA Client Documentation',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/build/',
   onBrokenLinks: 'throw',
@@ -51,7 +50,7 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Descrizione',
+            label: 'Descrizione API',
           },
           {to: 'http://localhost:3080', label: 'Vai al sito', position: 'left'},
           {

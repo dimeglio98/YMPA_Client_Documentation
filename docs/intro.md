@@ -15,9 +15,9 @@ Il backend è composto da due database, di tipi diversi:
 ## Modelli presenti
 
 ### SQL
-- Ricambi
-- Fornitori
-- Tabella di join tra Ricambi e Fornitori, perchè la relazione è N - N
+- [Ricambi](/docs/model-description/Ricambi)
+- [Fornitori](/docs/model-description/Fornitori)
+- [FornitoriRicambi](/docs/model-description/FornitoriRicambi)
 
 ### MongoDB
 - Prenotazioni

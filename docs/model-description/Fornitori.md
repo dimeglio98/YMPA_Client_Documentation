@@ -13,8 +13,9 @@ I fornitori (provider) sono coloro che forniscono i ricambi
 Ognuno di essi (ovviamente) fornisce più ricambi
 
 ## Composizione colonne
-I campi segnati in rosso sono univoci e la query restituirà un errore se violato
-
+:::caution
+I campi segnati in rosso sono univoci e la query restituirà un errore se il vincolo sarà violato
+:::
 - nome
 - email
 - address
@@ -25,16 +26,16 @@ I campi segnati in rosso sono univoci e la query restituirà un errore se violat
 
 ## API disponibili
 
-### Metodi GET
-- <Color color = "green"> GET </Color> /allProviders, per cercare uno o più fornitori
+### Metodi <Color color = "green"> GET </Color>
+- [/allProviders](#allProviders), per cercare uno o più fornitori
 
-### Metodi POST
-- <Color color = "darkorange"> POST </Color> /createProvider, per creare un fornitore alla volta
-- <Color color = "darkorange"> POST </Color> /deleteProvider, per eliminare un fornitore dal db
-- <Color color = "darkorange"> POST </Color> /updateProviders, per modificare uno o più dati di un fornitore scelto
+### Metodi <Color color = "darkorange"> POST </Color>
+- [/createProvider](#createProvider), per creare un fornitore alla volta
+- [/updateProviders](#updateProvider), per modificare uno o più dati di un fornitore scelto
+- [/deleteProvider](#deleteProvider), per eliminare un fornitore dal db
 
-#### <Color color = "green"> GET </Color> All Providers
-Questo metodo accetta in ingresso i campi del fornitore e stampa i fornitori richiesti, oppure anche nessuno e in questo caso tutti i fornitori presenti nel db
+#### <Color color = "green"> GET </Color> All Providers {#allProviders}
+Questo metodo accetta in ingresso i campi del fornitore e stampa i fornitori richiesti, oppure anche nessuno e in questo caso risponde tutti i fornitori presenti nel db
 
 Parametri:
 
@@ -64,7 +65,7 @@ Risposta:
     ]
 }
 ```
-#### <Color color = "darkorange"> POST </Color> Create Provider
+#### <Color color = "darkorange"> POST </Color> Create Provider {#createProvider}
 Questo metodo crea un fornitore, in input sono passati i parametri del fornitore
 
 ```shell
@@ -96,8 +97,8 @@ Risposta:
 }
 ```
 
-#### <Color color = "darkorange"> POST </Color> Update Provider
-Questo metodo aggiorna un fornitore, in input sono passati uno o più parametri del fornitore
+#### <Color color = "darkorange"> POST </Color> Update Provider {#updateProvider}
+Questo metodo aggiorna un fornitore, in input sono passati uno o più parametri del fornitore, oltre necessariamente all'id del fornitore da modificare
 
 Parametri:
 
@@ -124,7 +125,7 @@ Risposta:
     }
 }
 ```
-#### <Color color = "darkorange"> POST </Color> Delete Provider
+#### <Color color = "darkorange"> POST </Color> Delete Provider {#deleteProvider}
 Questo metodo elimina un fornitore sulla base di un id passato
 
 Parametri:
