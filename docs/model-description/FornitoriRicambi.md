@@ -8,7 +8,7 @@ export const Color = ({children, color}) => (
 );
 
 ## Descrizione
-Questa tabella è usata per collegare la relazione N - N tra ricambi e fornitori, ogni riga contiente la relativa associaizione
+Questa tabella è usata per collegare la relazione N - N tra ricambi e fornitori, ogni riga contiente la relativa associazione
 
 ## Composizione colonne
 

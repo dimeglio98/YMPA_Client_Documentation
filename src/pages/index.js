@@ -31,9 +31,6 @@ export default function Home() {
       title={`Hello from ${siteConfig.title}`}
       description="YMPA Client Documentation">
       <HomepageHeader />
-      <div className = {styles.home}>
-      Clicca il pulsante Descrizione API nel menu per continuare
-    </div>
     </Layout>
   );
 }

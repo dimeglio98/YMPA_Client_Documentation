@@ -6,9 +6,10 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'YMPA Client Documentation',
+  title: 'YMPA Client',
+  tagline: 'Clicca il pulsante Descrizione API nel menu per continuare',
   url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/build/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
