@@ -13,7 +13,7 @@ I fornitori (provider) sono coloro che forniscono i ricambi
 Ognuno di essi (ovviamente) fornisce più ricambi
 
 ## Composizione colonne
-:::caution
+:::caution AVVISO
 I campi segnati in rosso sono univoci e la query restituirà un errore se il vincolo sarà violato
 :::
 - nome

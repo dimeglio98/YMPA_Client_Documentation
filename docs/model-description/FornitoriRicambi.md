@@ -52,7 +52,7 @@ Risposta:
 
 #### <Color color = "darkorange"> POST </Color> Create Association {#createAssociation}
 Questo metodo permette di creare un'associazione, passando l'id del ricambio e del fornitore
-:::caution
+:::caution AVVISO
 Prima della creazione, viene verificata l'esistenza dell'associazione e l'esistenza dei ricambi e fornitori forniti, restituendo:
 - **bad_request** se esiste già
 - **not_found** se gli id forniti non sono corretti

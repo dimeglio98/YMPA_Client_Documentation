@@ -1,4 +1,5 @@
 ---
+slug: /
 sidebar_position: 1
 sidebar_label: "Introduzione"
 ---
@@ -15,20 +16,27 @@ Il backend è composto da due database, di tipi diversi:
 ## Modelli presenti
 
 ### SQL
-- [Ricambi](/docs/model-description/Ricambi)
-- [Fornitori](/docs/model-description/Fornitori)
-- [FornitoriRicambi](/docs/model-description/FornitoriRicambi)
+- [Ricambi](/model-description/Ricambi)
+- [Fornitori](/model-description/Fornitori)
+- [FornitoriRicambi](/model-description/FornitoriRicambi)
 
 ### MongoDB
-- Prenotazioni
-- Preventivi
-- Giorni del calendario
-- Fatture
-- Sconti applicabili
-- Lavorazioni disponibili
+- [Prenotazioni](/model-description/Prenotazioni)
+- [Preventivi](/model-description/Preventivi)
+- [Giorni del calendario](/model-description/Giorni%20del%20calendario)
+- [Fatture](/model-description/Fatture)
+- [Sconti applicabili](/model-description/Sconti)
+- [Lavorazioni disponibili](/model-description/Lavori)
+- [Spese Ricorrenti](/model-description/Spese)
+#### In più sono disponibili query aggiuntive per l'admin [qui](/admin/Riepilogo)
 
-I metodi utilizzati sono get e post, per tutti i db
-:::danger
+**I metodi utilizzati sono get e post, per tutti i db**
+
+:::info
+Tutti i modelli disponogno di campi **created_at**, **updated_at**, **id** (o **_id**, nel caso di modelli di *MongoDB*) gestiti direttamente dall'engine
+:::
+
+:::danger ATTENZIONE
 Tutte le query sono **case sensitive**
 :::
 <!-- 
