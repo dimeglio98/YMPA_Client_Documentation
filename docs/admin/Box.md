@@ -1,10 +1,10 @@
-# Descrizione
+## Descrizione
 TIPO GET
 
 Questa view restituisce i dati necessari per i box nella dashboard admin
 
 
-# Formato richiesta
+## Formato richiesta
 Parametri: 
 
 shell

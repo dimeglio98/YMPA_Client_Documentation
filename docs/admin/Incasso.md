@@ -1,9 +1,9 @@
-# Descrizione
+## Descrizione
 TIPO GET
 
 Questa view restituisce i dati necessari per creare la linea incassi nel grafico trend finanziario, nella dashboard admin
 
-# Formato richiesta
+## Formato richiesta
 Parametri: 
 
 shell
