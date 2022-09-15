@@ -27,7 +27,8 @@ Il backend è composto da due database, di tipi diversi:
 - [Fatture](/model-description/Fatture)
 - [Sconti applicabili](/model-description/Sconti)
 - [Lavorazioni disponibili](/model-description/Lavori)
-- [Spese Ricorrenti](/model-description/Spese)
+- [Spese Ricorrenti](/model-description/Spese%20Ricorrenti)
+- [Spese Generiche](/model-description/Spese20Generiche)
 #### In più sono disponibili query aggiuntive per l'admin [qui](/admin/Riepilogo)
 
 **I metodi utilizzati sono get e post, per tutti i db**
