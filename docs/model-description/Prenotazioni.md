@@ -42,9 +42,14 @@ I campi di colore diverso vengono aggiunti in momenti successivi alla creazione
 ### Metodi <Color color = "darkorange"> POST </Color>
 - [/bookingByParameters](#bookingByParameters) per cercare tra le prenotazioni
 - [/createBooking](#createBooking), per creare una prenotazione alla volta
+
+### Metodi <Color color = "blue"> PUT </Color>
+
 - [/updateBookings](#updateBooking), per modificare uno o più dati di una prenotazione scelta
-- [/deleteBookings](#deleteBooking), per eliminare una prenotazione dal db
 - [/updateElementArrayBooking](#updElemArrayBook) per modificare la quantità del ricambio scelto
+### Metodi <Color color = "red"> DELETE </Color>
+
+- [/deleteBookings](#deleteBooking), per eliminare una prenotazione dal db
 - [/deleteElementArrayBooking](#delElemArrayBook) per eliminare un ricambio scelto
 
 :::note NOTA

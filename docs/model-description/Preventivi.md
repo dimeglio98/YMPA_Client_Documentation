@@ -49,11 +49,18 @@ Quando il veicolo viene consegnato:
 
 - [/quotationByParameters](#quotationByParameters) per cercare tra le prenotazioni
 - [/createQuotation](#createQuotation), per creare un preventivo alla volta
+
+### Metodi <Color color = "blue"> PUT </Color>
+
 - [/updateQuotations](#updateQuotation), per modificare uno o più dati di un preventivo scelto
-- [/deleteQuotations](#deleteQuotation), per eliminare un preventivo dal db
 - [/updateElementArrayQuotation](#updElemArrayQuot) per modificare la quantità del ricambio scelto
+
+### Metodi <Color color = "red"> DELETE </Color>
+
+- [/deleteQuotations](#deleteQuotation), per eliminare un preventivo dal db
 - [/deleteElementArrayQuotation](#delElemArrayQuot) per eliminare un ricambio scelto
-- [/viewOneQuotationSelect](#quotationSelect) per il modulo react-select (al momento non usato)
+
+<!-- - [/viewOneQuotationSelect](#quotationSelect) per il modulo react-select (al momento non usato) -->
 
 :::note NOTA
 Ogni API restituisce anche le relative associazioni per avere una visione totale e di facile accesso a tutto il contenuto associato

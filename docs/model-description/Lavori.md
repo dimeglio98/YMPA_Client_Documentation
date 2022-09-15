@@ -27,9 +27,13 @@ Questa collection contiene le lavorazioni offerte dall'officina
 ### Metodi <Color color = "darkorange"> POST </Color>
 
 - [/createLavoro](#createLavoro), per creare un lavoro alla volta
-- [/updateLavoro](#updateLavoro), per modificare uno o più dati di un lavoro scelto
-- [/deleteLavoro](#deleteLavoro), per eliminare un lavoro dal db
 - [/deleteFieldLavoro](#delFieldLavoro) per eliminare un campo del lavoro scelto
+
+### Metodi <Color color = "blue"> PUT </Color>
+
+- [/updateLavoro](#updateLavoro), per modificare uno o più dati di un lavoro scelto
+### Metodi <Color color = "red"> DELETE </Color>
+- [/deleteLavoro](#deleteLavoro), per eliminare un lavoro dal db
 
 #### <Color color = "green"> GET </Color> View One Lavoro {#viewOneLavoro}
 
